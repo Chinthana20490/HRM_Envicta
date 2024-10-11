@@ -77,7 +77,7 @@ const AttendanceDetails = () => {
 
     return (
         <Card className='no-border'>
-            <Card.Header className="mx-3 d-flex justify-content-between align-items-center">
+            <Card.Header className="d-flex justify-content-between align-items-center mx-3">
                 <h5>Attendance Details</h5>
                 <div className="d-flex align-items-center"> {/* Added flex for alignment */}
                     <Form className="d-flex me-2" style={{ width: '400px' }}>
@@ -158,7 +158,7 @@ const AttendanceDetails = () => {
                         />
                     </Pagination>
                     <Form.Group controlId="formPageSize" className="d-flex align-items-center">
-                        <Form.Label className="mb-0 me-2">Page:</Form.Label>
+                        <Form.Label className="me-2 mb-0">Page:</Form.Label>
                         <Form.Control as="select" defaultValue="5" style={{ width: 'auto' }}>
                             <option>5</option>
                             <option>10</option>
