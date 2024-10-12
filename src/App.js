@@ -47,6 +47,8 @@ import Settings from './Pages/Settings';
 import Payroll from "./Pages/Payroll";
 import DailyLog from './Pages/DailyLog';
 import TaskManagement from './Pages/Time/TaskManagement';
+import 'bootstrap-icons/font/bootstrap-icons.css';
+
 function App() {
     return (
         <Router>
